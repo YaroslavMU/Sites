@@ -129,11 +129,7 @@ h1, h2, h3 {
     float: left; /*Остальные элементы будут обтекать его с других сторон*/
     padding-right: 48px;
 }
-.logo1 {
-    float: left;
-    padding-top: 30px;
-    padding-right: 48px;
-}
+
 .section4 {
     background-color: #fff; /*Определяет цвет фона элемента*/
     padding-top: 48px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
@@ -200,4 +196,3 @@ color: #FFFFFF;
 text-align: center;
 margin: 0 auto;
 }
-
