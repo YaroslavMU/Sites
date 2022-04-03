@@ -1,0 +1,199 @@
+@import url(normalize.css);
+
+body {
+    margin:auto 0;
+    font-family: 'Roboto', sans-serif;
+
+ }
+ * {
+     box-sizing: border-box;
+ }
+head {
+    font-family: 'Roboto', sans-serif;
+    margin:auto 0;
+}
+h1, h2, h3 {
+    margin:0;
+    text-decoration: none;
+}
+.title {
+  margin-top: 48px;
+    color: #007765;
+    font-style: normal;
+    font-weight: 500; /*Устанавливает насыщенность шрифта*/
+    font-size: 64px; /*Определяет размер шрифта элемента*/
+    line-height: 75px; /*Задаёт высоту строки текста*/
+    text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+
+}
+.site-header {
+    width:100%;
+    background-color: #007765;
+    height: 84px; /*Устанавливает высоту содержимого элемента*/
+    display: flex; /*Определяет как элемент должен быть показан в документе*/
+    align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+    position: fixed; /*Устанавливает способ позиционирования элемента относительно окна браузера или других объектов на веб-странице*/
+    top: 0; /*Расстояние от верхнего края родительского элемента до верхнего края дочернего элемента*/
+    z-index: 21; /*Размещением по z-оси*/
+
+
+}
+.maincontainer {
+    width: 100%;
+    max-width: 1219px;
+    margin:0px auto;
+    padding-left: 54px; /*Устанавливает значение поля от левого края содержимого элемента*/
+    padding-right: 55px; /*Устанавливает значение поля от правого края содержимого элемента*/
+
+
+}
+
+.navigationcontainer {
+    height: 100%; /*Устанавливает ширину содержимого элемента*/
+    display: flex; /*Определяет как элемент должен быть показан в документе*/
+    align-items:center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+    justify-content: space-between; /*Как браузер распределяет пространство вокруг флекс-элементов вдоль главной оси контейнера*/
+}
+.link {
+    font-style: normal;
+    font-weight: 500; /*Устанавливает насыщенность шрифта*/
+    font-size: 24px; /*Определяет размер шрифта элемента*/
+    color: #ffffff;
+    line-height: 28px;
+    text-decoration: none;
+}
+.link:hover {
+    font-size: 28px;
+    line-height: 29px;
+    font-weight: 500;
+    transition: font-size .3s linear;
+    color:blue;
+    text-decoration: none;
+}
+.palochka {
+    font-style: normal;
+    font-weight: 500, Medium; /*Устанавливает насыщенность шрифта*/
+    font-size: 24px; /*Определяет размер шрифта элемента*/
+    color: #ffffff;
+    line-height: 28px;
+    text-decoration: none;   
+}
+.section1 {
+    background: url(img/image.png) center no-repeat;;
+    background-size: cover;
+    padding-top: 160px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+    padding-bottom: 160px;
+    margin-top: 84px;
+
+}
+.maintitle {
+    margin-top: 48px;
+    font-style: normal;
+    font-weight: 500; /*Устанавливает насыщенность шрифта*/
+    font-size: 72px; /*Определяет размер шрифта элемента*/
+    line-height: 84.38px; /*Задаёт высоту строки текста*/
+    text-align: center;
+    color:#ffffff;
+}
+.section2 {
+    padding-top: 55px;
+    padding-bottom: 92px;
+    color: #000000;
+}
+.textsection {
+    font-style: normal; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
+    font-weight: normal; /*Устанавливает насыщенность шрифта*/
+    font-size: 32px; /*Определяет размер шрифта элемента*/
+    line-height: 38px; /*Задаёт высоту строки текста*/
+}
+.section3 {
+    background: url(img/image11.png) center no-repeat;
+    background-size: cover; /*Масштабирует фоновое изображение, согласно заданным размерам*/
+    padding-top: 128px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+    padding-bottom: 128px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message {
+   
+    width: 100%; /*Устанавливает ширину содержимого элемента*/
+  font-style: italic; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
+  font-weight: 500; /*Устанавливает насыщенность шрифта*/
+  font-size: 48px; /*Определяет размер шрифта элемента*/
+  line-height: 56px; /*Задаёт высоту строки текста*/
+  text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+  color: #fff; /*Определяет цвет текста элемента*/  
+
+}
+.logo {
+    float: left; /*Остальные элементы будут обтекать его с других сторон*/
+    padding-right: 48px;
+}
+
+.section4 {
+    background-color: #fff; /*Определяет цвет фона элемента*/
+    padding-top: 48px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+    padding-bottom: 92px; 
+}
+.textsection4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+        color: #000000; 
+       
+}
+
+.section5 {
+    background-color:#EEEEEE; /*Определяет цвет фона элемента*/
+    padding-top: 48px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+    padding-bottom: 122px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
+.img {
+    width: 350px;
+    height: 283px;  
+    text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+    display: flex; /*Определяет как элемент должен быть показан в документе*/
+    flex-flow: column wrap;
+    align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+    padding-bottom: 55px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
+.foto {
+    width: 168px;
+    height: 168px;  
+}
+.team {
+    padding-top: 58px;
+}
+.name {
+    font-weight: 700; /*Устанавливает насыщенность шрифта*/
+  font-size: 24px; /*Определяет размер шрифта элемента*/
+  line-height: 28px; /*Задаёт высоту строки текста*/
+  color: #007765; /*Определяет цвет текста элемента*/
+}
+.figure {
+    margin: 0; /*Расстояние от края элемента до края другог элемента*/
+    padding: 0; /*Устанавливает значение полей вокруг содержимого элемента*/
+    display: flex; /*Определяет как элемент должен быть показан в документе*/
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer {
+    background: #333333;
+    text-align: center;
+    margin:0;
+    padding-top: 48px;
+   padding-bottom: 64px;
+}
+.textfooter {
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+width: 540px;
+height: 64px;
+color: #FFFFFF;
+text-align: center;
+margin: 0 auto;
+}
