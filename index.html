@@ -1,136 +1,196 @@
 <!DOCTYPE html>
-
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width= device- width">
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
 
-    <title>Pied Piper</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-    
-  </head>
-<header class="site-header">
-    <div class="maincontainer">
-        
-            <div class="navigationcontainer">
-                <div class="logo">
-             <a href="#Header_cite"><img src="img/logo.png" alt="logo"></a>
-            </div>
-            <nav>
-            <a class="link" href="#the_problem">the problem</a> <span class="palochka"> |</span>
-            <a class="link" href="#PiedPiperCoin">PiedPiperCoin</a> <span class="palochka"> |</span>
-            <a class="link" href="#the_team">the team</a>
-            
-        </nav>
-    </div>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BootstrapExample</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="vendor/js/jquery-3.3.1.slim.min.js" defer></script>
+  
+  <script src="vendor/js/popper.min.js" async></script>
+  
+  <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+  
+  <script src="vendor/js/bootstrap.min.js" defer></script>
+<style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
 
-</header>
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+</head>
 <body>
-    <section class="section1" id="Header_cite">
-        <div class="maincontainer">
-            <h1 class="maintitle">PiperNet Is Here</h1>
-        </div>
-    </section>
-    <section class="section2" id="the_problem">
-<div class="maincontainer">
-    <h2 class="title">The Problem</h2>
-    <div class="textsection">
-    <p>Beneath the flashy homepages of your favorite sites lurk Hooli™ and other evil corporations out to hoard and sell your most personal data</p>
-    <p>What was built to be the ultimate platform for the free sharing of knowledge has turned into a money-hungry monster feasting on our privacy and freedom.</p>
-    <p>But fear not, for Pied Piper has the answer! And it’s simple:An autonomous peer-to-peer network featuring distributed storage powered by universal compression, accelerated scheduling allocation, and end-to-end encryption.</p>
-    <p>Put even simpler — <b>it’s the internet, completely decentralized.</b></p>
-</div>
-</div>
-    </section>
-    <section class="section3">
-        <div class="maincontainer">
-            <div class="message">
-                <p>We’re in this together! All of our computers and phones join in a network to make the strongest supercomputer the world has ever seen.</p>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">НЛК</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Портофолио</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Рейтинг</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Помощь</a>
+                  </li>
+                </ul>
+                             </div>
             </div>
+          </nav>
+      </header>
+<main>
+        <div class="jumbotron rounded-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-7 col-md-11 col-xs-6">
+                <h1 class="display-4">Портфолио</h1>
+                <p class="lead">Это место, где собраны ваши научные публикации. Здесь вы можете добавлять свои научные
+                  работы,
+                  получать информацию об их уникальности и смотреть отзывы ваших научных руководителей.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Добавить работу</a>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <section class="section4" id="PiedPiperCoin">
-        <div class="maincontainer">
-            <h2 class="title">Introducing PiedPiperCoin</h2>
-            <div class="textsection4">
-<div class="logo">
-    <img src="img/PPCLogo.png" alt="logo">
-</div>
+        <div class="row px-5 mr-0">
 
-<p>Pied Piper's new internet is built <i>for users, by users.</i> <br>
-    You supply the storage, compute, and networking resources that power our entire decentralized web.</p>
-    <p>Now there's a way to give credit where credit is due. Compute credit, that is! The more you share your device resources, the more PiedPiperCoin you receive.</p>
-<p>Whether you're a developer with an app ready for market, or just an Average Joe with a smartphone you'll love all you can do with PiedPiperCoin.</p>
-</div>
-</div>
-       
-    </section>
-    <section class="section5" id="the_team">
-        <div class="maincontainer">
-        <h2 class="title">The team</h2>
-                   <div class="team">
-               <figure class="figure">
-               <div class="img">
-                   <img src="img/image (6).png" alt="Richard Hendrick" class="foto">
-                   <figcaption>
-                       <h2 class="name">Richard Hendricks</h2>
-                       <i>Founder & CEO</i>
-                   </figcaption>
-               </div>
-               
-                <div class="img">
-                    <img src="img/image (2).png" alt="Dinesh Chugtai" class="foto">
-                    <figcaption>
-                        <h2 class="name">Dinesh Chugtai</h2>
-                        <i>Senior Programmerr</i>
-                    </figcaption>
+            <div class="col-lg-5 col-sm-7 pb-5">
+              <div class="card card-profile">
+                <div class="card-header">Ваш профиль</div>
+                <div class="card-body">
+                  <h5 class="card-title">Сергей Павлович Фролов</h5>
+                  <p class="card-text">
+                    <b>Научная степень</b>: Магистр.<br>
+                    <b>Специализация</b>: Инвестиционные проблемы экономически
+                    развивающихся рынков.
+                  </p>
+                  <button class="btn btn-primary">Редактировать</button>
                 </div>
-                
-                    <div class="img">
-                        <img src="img/image (3).png" alt="Bertram Gilfoylei" class="foto">
-                        <figcaption>
-                            <h2 class="name">Bertram Gilfoylei</h2>
-                            <i>Chief Systems Architect</i>
-                        </figcaption>
-                    </div>
-                        <div class="img">
-                            <img src="img/image (7).png" alt="Jared Dunn" class="foto">
-                            <figcaption>
-                                <h2 class="name">Jared Dunn</h2>
-                                <i>Chief Operating Officer</i>
-                            </figcaption>
-                        </div>
-                            <div class="img">
-                                <img src="img/image (5).png" alt="Monica Hall" class="foto">
-                                <figcaption>
-                                    <h2 class="name">Monica Hall</h2>
-                                    <i>Chief Financial Officer</i>
-                                </figcaption>
-                            </div>
-                                <div class="img">
-                                    <img src="img/image (4).png" alt="Nelson Bighetti" class="foto">
-                                    <figcaption>
-                                        <h2 class="name">Nelson Bighetti</h2>
-                                        <i>Majority Investor</i>
-                                    </figcaption>
-                                </div>
-                     </figure>
-           </div> 
-        </div>
-    </section>
+              </div>
+            </div>
+        
+            <div class="col-lg-4 col-sm-5 pb-5">
+              <div class="card card-stats">
+                <div class="card-header">Статистика</div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>На платформе:</b> 2 года.<br>
+                    <b>Добавлено работ:</b> 10.<br>
+                    <b>Средняя уникальность:</b> 75%.<br>
+                    <b>Языки работ:</b> русский, английский.
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        
+          <div class="works px-5 pb-5">
+            <table class="table table-bordered table-responsive-sm table-hover">
+        
+              <thead>
+                <tr>
+                  <th scope="col">Название работы</th>
+                  <th scope="col">Дата загрузки</th>
+                  <th scope="col">Научный руководитель</th>
+                  <th scope="col">Уникальность</th>
+                </tr>
+              </thead>
+        
+              <tbody class="text-primary">
+                <tr>
+                  <td>Привлечение инвестиций как фактор развития экономики</td>
+                  <td class="text-dark">21.05.2019</td>
+                  <td>Асаншоева А.М.</td>
+                  <td>89%</td>
+                </tr>
+                <tr>
+                  <td>The role of accounting in sustainable development</td>
+                  <td class="text-dark">11.02.2019</td>
+                  <td>Шаляпина В.С.</td>
+                  <td>78%</td>
+                </tr>
+                <tr>
+                  <td>Сценарный анализ как инструмент учета рисков инвестиционного
+                    проекта</td>
+                  <td class="text-dark">05.09.2019</td>
+                  <td>Васильев М.Г.</td>
+                  <td>67%</td>
+                </tr>
+                <tr>
+                  <td>Глобальные и региональные инвестиционные тенденции</td>
+                  <td class="text-dark">09.07.2019</td>
+                  <td>Асаншоева А.М.</td>
+                  <td>73%</td>
+                </tr>
+                <tr>
+                  <td>Systemic risks in financial markets</td>
+                  <td class="text-dark">18.05.2018</td>
+                  <td>Леонидов В.Б.</td>
+                  <td>77%</td>
+                </tr>
+                <tr>
+                  <td>The influence of tax regulation liberalisation on the domestic
+                    debt market</td>
+                  <td class="text-dark">09.03.2018</td>
+                  <td>Шаляпина В.С.</td>
+                  <td>82%</td>
+                </tr>
+                <tr>
+                  <td>Биткоин как новый вид инвестиций</td>
+                  <td class="text-dark">29.01.2018</td>
+                  <td>Асаншоева А.М.</td>
+                  <td>65%</td>
+                </tr>
+                <tr>
+                  <td>Проблема воспроизводства жилищного фонда в России</td>
+                  <td class="text-dark">08.11.2017</td>
+                  <td>Васильев М.Г.</td>
+                  <td>68%</td>
+                </tr>
+                <tr>
+                  <td>Влияние безработицы на экономику СНГ</td>
+                  <td class="text-dark">17.09.2017</td>
+                  <td>Васильев М.Г.</td>
+                  <td>67%</td>
+                </tr>
+                <tr>
+                  <td>Мировой валютный рынок Форекс</td>
+                  <td class="text-dark">02.07.2017</td>
+                  <td>Васильев М.Г.</td>
+                  <td>89%</td>
+                </tr>
+              </tbody>
+        
+            </table>
+          </div>
+        </main>
+      
+        <footer class="container-fluid pt-3 pb-3 bg-light">
+          <div class="container">
+            <p class="mb-0">© Научный личный кабинет. Все права защищены</p>
+          </div>
+      
+        </footer>
 
-<footer class="footer">
-     
-        <div class="maincontainer">
-        <div class="textfooter">
-            <p>All other trademarks and copyrights are the property of their respective owners. Use of these names, trademarks and brands does not imply endorsement.</p>
-        </div>
-   </div>
-</footer>
 </body>
   </html>
